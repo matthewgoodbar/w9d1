@@ -1,6 +1,9 @@
 export default class Level {
   constructor(dimensions) {
     this.dimensions = dimensions;
+    // this.pipes = Array(3).fill().map(() => {
+    //   {x:0, }
+    // });
   }
 
   drawBackground(ctx) {
